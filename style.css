@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #fff;
+    transition: 200ms;
+}
+
+header{
+    background-color: #161666;
+    padding: 15px 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1{
+    color: #fff;
+}
+
+.menu a{
+    color: #fff;
+    font-weight: 700;
+    margin: 0px 20px 0 0;
+}
+
+.menu a i{
+    color: #fff;
+    text-shadow: 0 0 15px #fff;
+}
+
+main{
+    display: flex;
+    padding: 10px 5pc;
+    height: 30pc;
+    align-items: center;
+    text-align: center;
+}
+
+main .titulo{
+    width: 50%;
+}
+
+main .img{
+    width: 50%;
+}
+
+main .titulo h2{
+    font-size: 40px;
+}
+
+main .img img{
+    width: 400px;
+}
+
+section .todo{
+    padding: 30PX 60px;
+    display: flex;
+}
+
+section .todo a{
+    text-align: center;
+    background-color: #dadada;
+    padding: 20px;
+    border-radius: 20px;
+    border: #fff solid 3px;
+    transition: .3s;
+}
+
+section .todo a i{
+    font-size: 40px;
+}
+
+section .todo a:hover{
+    background-color: #c4c4c4;
+    transition: .3s;
+}

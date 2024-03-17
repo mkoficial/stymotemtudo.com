@@ -1,0 +1,39 @@
+*{
+    color: white;
+    font-family: cursive;
+}
+body{
+    background-color: black;
+}
+div{
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: cursive;
+    font-size: 75px;
+}
+h1 .ms{
+    font-size: 40px;
+}
+button{
+    align-items: center;
+    text-align: center;
+    height: 2em;
+    width: 4.5em;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
+.iniciar{
+    background-color: rgb(70, 70, 255);
+}
+.pausar{
+    background-color: rgb(98, 182, 170);
+}
+.reiniciar{
+    background-color: rgb(255, 70, 70);
+}
